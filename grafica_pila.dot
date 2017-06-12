@@ -1,0 +1,7 @@
+Digraph G {
+"Nodo0"[label = "5" style=filled]
+"Nodo1"[label = "4" style=filled]
+"Nodo2"[label = "*" style=filled]
+"Nodo0" -> "Nodo1"[constraint=false];
+"Nodo1" -> "Nodo2"[constraint=false];
+}

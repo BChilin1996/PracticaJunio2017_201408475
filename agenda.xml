@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<agenda_personal>
+<codigo_referencia fecha="20100201">
+<texto>Texto en el día 01/02/2010.</texto>
+</codigo_referencia>
+<codigo_referencia fecha="20100215">
+<texto>Texto en el día 15/02/2010.</texto>
+</codigo_referencia>
+</agenda_personal>

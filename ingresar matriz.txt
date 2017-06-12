@@ -1,0 +1,21 @@
+   def ingresar(self, x,y,valor):
+         nuevoNodo = nodo_matriz(x,y,valor)
+         if self.vacia() == False:
+            aux = self.inicio
+            if x>"0":
+                if y>"0":
+                    while aux.abajo != None:
+                         aux = aux.abajo
+
+                    while aux.derecha != None:
+                        aux = aux.siguiente
+
+                aux.derecha = nuevoNodo
+                aux.derecha.izquierda=aux
+                ultimo = aux.derecha
+         else:
+             if y>"0":
+                 while aux.abajo != None:
+                     aux = aux.abajo
+
+             aux.abajo = self.ultimo = nuevoNodo

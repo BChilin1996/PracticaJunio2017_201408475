@@ -1,0 +1,17 @@
+Digraph G {
+"Nodo0"[label = "diana morales" style=filled]
+"Nodo0" -> "Nodo1"[constraint=false];
+"Nodo1" -> "Nodo0"[constraint=false];
+"Nodo1"[label = "bryand chilin" style=filled]
+"Nodo1" -> "Nodo2"[constraint=false];
+"Nodo2" -> "Nodo1"[constraint=false];
+"Nodo2"[label = "jimena adler" style=filled]
+"Nodo2" -> "Nodo3"[constraint=false];
+"Nodo3" -> "Nodo2"[constraint=false];
+"Nodo3"[label = "erick donis" style=filled]
+"Nodo3" -> "Nodo4"[constraint=false];
+"Nodo4" -> "Nodo3"[constraint=false];
+"Nodo4"[label = "luis pedro" style=filled]
+"Nodo4" -> "Nodo0"[constraint=false];
+"Nodo0" -> "Nodo4"[constraint=false];
+}

@@ -1,0 +1,5 @@
+Digraph G {
+"Nodo0"[label = " Lucas  aa" style=filled]
+"Nodo0" -> "Nodo0"
+"Nodo0" -> "Nodo0"
+}
